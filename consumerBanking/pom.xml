@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<distributionManagement>
+  	<repository>
+  		<id>prod</id>
+  		<url>http://localhost:8081/repository/nexusmavengithub/</url>
+  		<name>myprod</name>
+   	</repository>
+   </distributionManagement>
 </project>
